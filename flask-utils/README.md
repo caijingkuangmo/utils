@@ -10,3 +10,11 @@
 5.请求和响应，application.py
 
 6.session,__session
+
+7.闪现，背后实现就是session，用完即焚， flash_app
+
+8.请求扩展，请求前和请求后操作，常用登陆验证和权限控制，请求前后缓存操作，request-extend
+
+9.中间件，test_middleware.py
+
+10.蓝图，代理模式的程序控制，app作为代理者，接收请求分发给蓝图处理，pro_flask
