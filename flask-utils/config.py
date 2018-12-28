@@ -9,6 +9,12 @@ class Config(object):
     SECRET_KEY = "hehe"
     DATABASE_URI = "sqlite://:memory:"
 
+    # 需要配合flask-sqlalchemy组件使用
+    # SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root@127.0.0.1:3306/s7day145_2?charset=utf8"
+    # SQLALCHEMY_POOL_SIZE = 5
+    # SQLALCHEMY_POOL_TIMEOUT = 30
+    # SQLALCHEMY_POOL_RECYCLE = -1
+
 class ProductionConfig(Config):
     DATABASE_URI = "mysql://user@localhost/foo"
 

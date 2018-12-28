@@ -18,3 +18,14 @@
 9.中间件，test_middleware.py
 
 10.蓝图，代理模式的程序控制，app作为代理者，接收请求分发给蓝图处理，pro_flask
+
+第三方组件：
+    Flask-session,支持session在Redis，Memcached，文件，数据库存储， __flask_session
+    
+    Flask-SQLAlchemy,主要是把flask和SQLAlchemy进行无缝对接， __flask_sqlalchemy
+        1.读取配置
+        2.创建ORM基类
+        3.包含create_all
+        4.engine
+        5.创建连接
+ 

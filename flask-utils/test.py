@@ -11,6 +11,6 @@ def index():
 
     return "index"
 
-# app.wsgi_app
+app.wsgi_app
 if __name__ == "__main__":
     app.run(port=9999)
