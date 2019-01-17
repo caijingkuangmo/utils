@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+from scrapy.http import Request
 
 class ChoutiSpider(scrapy.Spider):
     name = 'chouti'
@@ -58,12 +58,98 @@ class ChoutiSpider(scrapy.Spider):
         # f.close()
 
     #持久化 items pipelines
+    # def parse(self, response):
+    #     from testscrapy.items import TestscrapyItem
+    #     item_list = response.xpath("//div[@id='content-list']/div[@class='item']")
+    #     for item in item_list:
+    #         text = item.xpath(".//a/text()").extract_first()
+    #         href = item.xpath(".//a/@href").extract_first()
+    #         yield TestscrapyItem(title=text, href=href)
+
+    #去重验证
+    # def parse(self, response):
+    #     print(response.request.url)
+    #     page_list = response.xpath("//div[@id='dig_lcpage']//a/@href").extract()
+    #     for page in page_list:
+    #         from scrapy.http import Request
+    #         page = "https://dig.chouti.com{page}".format(page=page)
+    #         yield Request(url=page, callback=self.parse)
+    #         #配置dont_filter为True后，不去重
+    #         # yield Request(url=page, callback=self.parse, dont_filter=True)
+
+    #cookie设置
+
+    # cookie_dict = {}
+    # def parse(self, response):
+    #
+    #     # 携带 解析的方式
+    #     #去响应头里获取cookie，cookie保存在cookie_jar对象
+    #     from scrapy.http.cookies import CookieJar
+    #     from urllib.parse import urlencode
+    #     cookie_jar = CookieJar()
+    #     cookie_jar.extract_cookies(response, response.request)
+    #     # 去对象中将cookie解析到字典
+    #     for k, v in cookie_jar._cookies.items():
+    #         for i, j in v.items():
+    #             for m, n in j.items():
+    #                 self.cookie_dict[m] = n.value
+    #
+    #     yield Request(
+    #         url="https://dig.chouti.com/login",
+    #         method="POST",
+    #         #body 可以自定拼接，也可以使用urlencode拼接
+    #         body="phone=8613121758648&password=woshiniba&oneMonth=1",
+    #         cookies=self.cookie_dict,
+    #         headers={
+    #             "Content-Type":'application/x-www-form-urlencoded; charset=UTF-8'
+    #         },
+    #         callback=self.check_login
+    #     )
+    #
+    # def check_login(self, response):
+    #     print(response.text)
+    #     yield Request(
+    #         url="https://dig.chouti.com/all/hot/recent/1",
+    #         cookies=self.cookie_dict,
+    #         callback=self.index
+    #     )
+    #
+    # def index(self, response):
+    #     news_list = response.xpath("//div[@id='content-list']/div[@class='item']")
+    #     for new in news_list:
+    #         link_id = new.xpath(".//div[@class='part2']/@share-linkid").extract_first()
+    #         yield Request(
+    #             url="http://dig.chouti.com/link/vote?linksId=%s"%(link_id, ),
+    #             method="POST",
+    #             cookies=self.cookie_dict,
+    #             callback=self.check_result
+    #         )
+    #
+    #     page_list = response.xpath("//div[@id='dig_lcpage']//a/@href").extract()
+    #     for page in page_list:
+    #         page = "https://dig.chouti.com" + page
+    #         yield Request(url=page, callback=self.index)
+    #
+    # def check_result(self, response):
+    #     print(response.text)
+
+    #start_urls
+    # def start_requests(self):
+    #     '''在这里你可以定义获取url的地方，比如从redis中获取'''
+    #     #方式一 生成器
+    #     # for url in self.start_urls:
+    #     #     yield Request(url=url)
+    #
+    #     #方式二 返回一个列表
+    #     req_list = []
+    #     for url in self.start_urls:
+    #         req_list.append(Request(url=url))
+    #     return req_list
+    #
+    # def parse(self, response):
+    #     print
+
     def parse(self, response):
-        from testscrapy.items import TestscrapyItem
-        item_list = response.xpath("//div[@id='content-list']/div[@class='item']")
-        for item in item_list:
-            text = item.xpath(".//a/text()").extract_first()
-            href = item.xpath(".//a/@href").extract_first()
-            yield TestscrapyItem(title=text, href=href)
+        print(type(response.text))
 
 

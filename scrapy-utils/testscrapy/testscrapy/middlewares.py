@@ -23,14 +23,14 @@ class TestscrapySpiderMiddleware(object):
     def process_spider_input(self, response, spider):
         # Called for each response that goes through the spider
         # middleware and into the spider.
-
+        print("process_spider_input")
         # Should return None or raise an exception.
         return None
 
     def process_spider_output(self, response, result, spider):
         # Called with the results returned from the Spider, after
         # it has processed the response.
-
+        print("process_spider_output")
         # Must return an iterable of Request, dict or Item objects.
         for i in result:
             yield i
@@ -47,7 +47,7 @@ class TestscrapySpiderMiddleware(object):
         # Called with the start requests of the spider, and works
         # similarly to the process_spider_output() method, except
         # that it doesn’t have a response associated.
-
+        print("只在爬虫启动时，执行一次")
         # Must return only requests (not items).
         for r in start_requests:
             yield r
@@ -57,9 +57,6 @@ class TestscrapySpiderMiddleware(object):
 
 
 class TestscrapyDownloaderMiddleware(object):
-    # Not all methods need to be defined. If a method is not defined,
-    # scrapy acts as if the downloader middleware does not modify the
-    # passed objects.
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -69,34 +66,37 @@ class TestscrapyDownloaderMiddleware(object):
         return s
 
     def process_request(self, request, spider):
-        # Called for each request that goes through the downloader
-        # middleware.
+        print("download middlewares process_request")
+        #1.返回response对象,这种情况下不执行下载，但是还是会执行process_response
+        # from scrapy.http import HtmlResponse
+        # import requests
+        # result = requests.get(request.url)
+        # return HtmlResponse(
+        #     url=request.url,
+        #     status=200,
+        #     headers=None,
+        #     body=result.content
+        # )
 
-        # Must either:
-        # - return None: continue processing this request
-        # - or return a Response object
-        # - or return a Request object
-        # - or raise IgnoreRequest: process_exception() methods of
-        #   installed downloader middleware will be called
+        # 2.发起下次请求
+        # from scrapy.http import Request
+        # print('request')
+        # return Request("https://dig.chouti.com/r/tec/hot/1")
+
+        # 3.抛出异常,不执行process_response，会执行process_exception
+        # from scrapy.exceptions import IgnoreRequest
+        # raise IgnoreRequest
+
+        # 4. 对请求进行加工(*)
+        # request.headers['user-agent'] = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
         return None
 
     def process_response(self, request, response, spider):
-        # Called with the response returned from the downloader.
-
-        # Must either;
-        # - return a Response object
-        # - return a Request object
-        # - or raise IgnoreRequest
+        print("download middlewares process_response")
         return response
 
     def process_exception(self, request, exception, spider):
-        # Called when a download handler or a process_request()
-        # (from other downloader middleware) raises an exception.
-
-        # Must either:
-        # - return None: continue processing this exception
-        # - return a Response object: stops process_exception() chain
-        # - return a Request object: stops process_exception() chain
+        print("download middlewares process_exception")
         pass
 
     def spider_opened(self, spider):
