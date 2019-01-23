@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d45e310-5c7c-44c1-be9c-17287794557c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scrapy-utils/testscrapy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy-utils/testscrapy/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/dupefilters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/proxy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-utils/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-utils/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/spiders/chouti.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/spiders/chouti.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,14 +14,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-utils/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <first_editor relative-caret-position="513">
+                <caret line="19" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sig.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/sig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="837">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -37,8 +47,8 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="189">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
                 <element signature="e#70#80#0" expanded="true" />
               </folding>
@@ -49,11 +59,8 @@
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="e#1960#3440#0" />
-              </folding>
+            <state relative-caret-position="729">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,7 +68,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SQL-utils/sql_test/app01/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="1674">
               <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -73,8 +80,8 @@
       <file leaf-file-name="chouti.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/spiders/chouti.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="4158">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -85,8 +92,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-utils/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="1242">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#70#85#0" expanded="true" />
               </folding>
@@ -116,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/object-utils/test.py" />
         <option value="$PROJECT_DIR$/object-utils/attr.py" />
         <option value="$PROJECT_DIR$/object-utils/__add.py" />
         <option value="$PROJECT_DIR$/other-utils/__partial.py" />
@@ -140,7 +146,6 @@
         <option value="$PROJECT_DIR$/flask-utils/__flask_sqlalchemy/settings.py" />
         <option value="$PROJECT_DIR$/flask-utils/__flask_sqlalchemy/create_all.py" />
         <option value="$PROJECT_DIR$/flask-utils/__flask_sqlalchemy/__init__.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/SQL-utils/sql_test/sql_test/__init__.py" />
         <option value="$PROJECT_DIR$/SQL-utils/__init__.py" />
@@ -166,11 +171,13 @@
         <option value="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/settings.py" />
         <option value="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/spiders/chouti.py" />
         <option value="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/manage.py" />
+        <option value="$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/sig.py" />
         <option value="$PROJECT_DIR$/scrapy-utils/README.md" />
+        <option value="$PROJECT_DIR$/test2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="105" />
     <option name="y" value="82" />
     <option name="width" value="1326" />
@@ -185,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,13 +208,7 @@
             <path>
               <item name="utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="testscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="utils" type="b2602c69:ProjectViewProjectNode" />
@@ -216,7 +218,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,25 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage (1)">
-    <configuration name="connections" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="utils" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL-utils/_sql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL-utils/_sql/connections.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.test2">
     <configuration name="create_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="utils" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,20 +321,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="utils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.connections" />
       <item itemvalue="Python.create_all" />
       <item itemvalue="Python.pipelines" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.manage (1)" />
+      <item itemvalue="Python.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.manage (1)" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.pipelines" />
         <item itemvalue="Python.create_all" />
-        <item itemvalue="Python.connections" />
       </list>
     </recent_temporary>
   </component>
@@ -369,15 +370,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="82" width="1326" height="1071" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2698908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18287526" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46902654" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4769404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.48230088" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -400,13 +400,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/werkzeug/datastructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="2005" column="6" selection-start-line="2005" selection-start-column="6" selection-end-line="2005" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/flask/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -491,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask-utils/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -512,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -660,12 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="1294" column="8" selection-start-line="1294" selection-start-column="8" selection-end-line="1294" selection-end-column="8" />
-          <folding>
-            <element signature="e#26369#26865#0" />
-            <element signature="e#26899#27073#0" />
-            <element signature="e#27175#27560#0" />
-            <element signature="e#27619#27713#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#70#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,19 +681,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#178#222#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#1960#3440#0" />
-          </folding>
+        <state relative-caret-position="729">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -736,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-utils/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="1242">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#70#85#0" expanded="true" />
           </folding>
@@ -746,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL-utils/sql_test/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="1674">
           <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
@@ -756,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/spiders/chouti.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        <state relative-caret-position="4158">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -766,21 +730,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="189">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="e#70#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-utils/testscrapy/testscrapy/sig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-utils/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <first_editor relative-caret-position="513">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
